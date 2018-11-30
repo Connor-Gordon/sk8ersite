@@ -1,0 +1,121 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+ li {
+	list-style: none;
+}
+
+body {
+	display: flex;
+	background-color: black;
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: Helvetica, Arial, Sans;
+}
+
+h3 {
+	flex-wrap: wrap;    ?????????????
+}
+
+#body, #maindul, #topbar, #feed, #slink {
+	display: flex;
+}
+
+#mainul {
+	width: 1020px;
+	flex-direction: column;
+	align-items: space-between;
+}
+
+
+/* Subcribe and Feed Icons Bar */
+
+
+#topbar {
+	justify-content: flex-end;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+#slink {
+	text-decoration: none;
+	color: white;
+	width: 200px;
+	height: 35px;
+	line-height: 30px;
+	border-right-style: dotted;
+	margin-top: 15px;
+	white-space: pre;
+}
+
+#feed {
+	
+	margin-bottom: 10px;
+	margin-left: -25px;
+}
+
+.icons {
+	margin: 0px 5px;
+	text-shadow: 0px 4px gray;
+}
+
+#fb {
+	color: rgb(70, 89, 141);
+}
+
+#rss {
+	color: rgb(196,145,69);
+}
+
+#twit {
+	color: rgb(111,141,194);
+}
+
+#you {
+	color: rgb(165,65,52);
+}
+
+/* Nav Bar */
+
+#navbar {
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+}
+
+.nav {
+	width: 247px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(166,53,52);
+	font-size: 20px;
+	font-weight: lighter;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(135,135,135,.5)
+}
+
+
+/* Main Picture */
+
+ {
+
+}
+
+#mainpic {
+	border-width: 10px;
+	border-style: solid;
+	border-color: white;
+	
+}
+
+/* Articles */
+
+
+
